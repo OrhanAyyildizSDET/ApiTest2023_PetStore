@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="api_Utilities.Extend_Reports"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="D:/jAVA/Tester/ApiTesting2023">
+        <classes>
+<!--            <class name="api_Test.DDT_Test">-->
+<!--                <methods>-->
+<!--                    <include name="postUser"/>-->
+<!--                    <include name="deleteUser"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="api_Test.User_Test_Properties">
+
+            </class>
+        </classes>
+    </test>
+</suite>
